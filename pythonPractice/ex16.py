@@ -18,6 +18,10 @@ print "If you do want that, hit RETURN."
 raw_input("?")
 
 #The 'w' stands for permission to write in the file, puts it in write mode
+#If you write an 'r' you open in read mode, and with 'a' in append mode
+#By default it starts in 'r', thats why it was not done before
+#the '+' modifier (done when 'w+', 'r+', 'a+') open the file in both read
+#and write mode and depending on the character, positions the file in other ways
 #just using the w will truncate the file
 print "Opening the file..."
 target = open(filename, 'w')

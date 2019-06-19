@@ -1,7 +1,7 @@
 #this means we work with command line arguments, from where we execute our 
 #code, in my case, in PowerShell
 #this are called modules(referring to sys, which means system functionality)
-#argv can be interpreted as a library
+#argv is like a libray
 from sys import argv
 
 #difference between argv and raw_input(), argv is inputted in the command line (reads as string)
