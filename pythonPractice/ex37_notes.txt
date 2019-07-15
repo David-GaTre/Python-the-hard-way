@@ -1,0 +1,105 @@
+All extracted by https://www.flashcardmachine.com/learn-python-thehardwayexercise37.html
+(i will omit the easy ones)
+Keywords
+• and : logical operator, two must be true to continue
+• del : deletesan item from a list given its index. ex. del a[0]
+• from : the room of a from-import statement, used for specific objects from a module
+• not : negate an operation
+• while : is a loop statement
+• as : used in a 'with' statement to define the alias to assign each result of with x to. ex. with open("x.log") as x
+• elif : conditional execution statement following an 'if'
+• global : global statement is a declaration wchiich hold for the entire current code block, listed identifiers are to be interpreted as globals. ex. : globes = 0 \n def glob_1(): global globes, etc.
+• with : the 'with' statement is used to wrap the execution of a block with functionality provided by a separate guard object (see context-managers). This allows common try-except-finally usage patterns to be encapsulated for convenient reuse. ex. with open("bzr.log") as x: data = x.read() print data
+• or : boolean operator to accept either condition True
+• assert : it verifies that the expression defined resolves to true. If it does not it will raise an AssertionError with an optional expression2
+• else : when all conditional execution statements in an if, elif block return false, the else will catch and execute
+• if : a conditional execution statement which executes some code if it's true
+• pass : a null operation. when executed nothing happens.
+• yield : return a generaor object(like a list). ex. def direct(path): \n yield os.path.walk(path)
+• break : will exit out of the 'nearest' loop. ex. while x<10: \n if x<0: \n break \n print x \n x = x+1
+• except : when a try statement fails the except catches the failure and returns (check the past exercise)
+• import : initializes an external module so its functions can be used in the current environment. ex. import os print os.path("c:")
+• print 
+• class : an object that contains functions and can be instantiated. ex. class Man: \n def height (self): \n print "TALL DUDE"
+• exec : allows for the dynamic execution of Python code. ex. test = print "Sup" \n exec (test)
+• in : used in if and for, allow the code to loop through all members of a generator object ex. if x in [1,2,3,4,5] : print "Sup"
+• raise: used to call an exception that can be customized per situation. ex. raise exception, "PC LOAD LETTER"
+• continue : when encountered, causes the application to skip the rest of the current loop.
+• finally : cleanup function in a 'try' , still excecutes the finally statement 
+• is : compares the object identity of two objects. Two objects referencing the same memory location will return True, but objects that are 'equal' will not
+• return : output returned by a function
+• def : define a function
+• for : iterate through a generator object
+• lambda : creates an anonymous function that is not bound to a specific namespace. syntax : lambda arguments : expression
+• try
+
+Data types
+• True
+• False
+• None : null
+• strings
+• numbers
+• floats
+• lists
+
+string escape
+• \\
+• \'
+• \"
+• \a
+• \b : backspace
+• \f
+• \n : newline
+• \r : carriage return
+• \t : tab
+• \v : vertical tab
+
+string formats
+• %d : signed decimal
+• %i : same as %d
+• %o : octal
+• %u : signed decimal (obsolete)
+• %x : signed hex, lowercase
+• %X : signed hex, uppercase
+• %e: floating point in exponential format, lowercase
+• %E : same as e%e, uppercase
+• %f : floating point decimal format
+• %F : same
+• %g : floating point format. lowercase exponential format if less than -4, decimal format otherwise
+• %G : same as %g, uppercase
+• %c : single caracter
+• %r : string, converts using repr()
+• %s : string, converts using str()
+• %% : no argument converted, results in '%'
+
+Operators
+• +
+• -
+• *
+• ** : exponentiation, to the power of
+• /
+• // : quotient
+• %
+• <
+• >
+• <=
+• >=
+• ==
+• !=
+• <>
+• ( )
+• [ ]
+• { } : set 
+• @
+• ,
+• :
+• .
+• =
+• ;
+• +=
+• -=
+• *=
+• /=
+• //= : quotient of the variable by the argument
+• %= : remainder of the variable
+• **= : exponentiate the variable
