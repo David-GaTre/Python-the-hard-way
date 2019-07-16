@@ -169,6 +169,9 @@ class EscapePod(Scene):
 
 		good_pod = randint(1,5)
 		guess = raw_input("[pod #]> ")
+			if guess == "magic repair":
+				print "You magically repaired pod #%d." % good_pod
+				guess = raw_input("[pod #]> ")
 		
 		if int(guess) != good_pod:
 			print "You jump into pod %s and hit the eject button." % guess
