@@ -1,5 +1,6 @@
 #self makes reference to the same class, used to access the variables beloning
-#to the class, if you didn't use any variable, is not necessary
+#to the class, if you didn't use any variable, is not necessary. Is not necessary
+#to call it self, but IT HAS to be the first parameter of any function in the class
 class Song(object):
 	
 	def __init__(self, lyrics):
@@ -27,4 +28,5 @@ bulls_on_parade.sing_me_a_song()
 # just like a constructor in c++, in this case, self and lyrics are the args
 # so, it will have a parameter that will be called lyrics, which is a list of
 # strings. You could write also print bulls_on_parade.lyrics and it will print
-# the list with the []
+# the list with the []. To modify properties of the object, you can make:
+# bulls_on_parade.lyrics[0] = "I really don't remember what it first says"
